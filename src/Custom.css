@@ -1,0 +1,353 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topheader {
+    background: #803d74;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1260px;
+    margin: auto;
+}
+
+.topheader p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+}
+
+.navbar h1, 
+.navmenu li {
+    color: #803d74;
+}
+
+.home-main{
+    background-image: linear-gradient(180deg, #ffffff, #803d7459);
+}
+
+.slider-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position:relative;
+}
+
+.home-main-col-1 {
+    width: 40%;
+}
+
+
+.home-main-col-2 img{
+    width:450px;
+}
+
+.home-main-col-1 h1 {
+    font-size: 90px;
+    line-height: 85px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: serif;
+    color: #803d74;
+    margin-bottom: 30px;
+}
+
+.home-main-col-1 h6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #803d74;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.home-main-col-1 p {
+    color: #803d74;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
+}
+
+.home-main-col-1 button {
+    background: #803d74;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 17%;
+}
+
+.home-sec-bg {
+    background: #803d74;
+    padding: 60px 0px;
+}
+
+.home-sec-bg h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.home-sec-bg h6 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home-sec-bg form {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.registration-form input{
+    width: 93%;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
+    color: #803d74;
+    font-family: 'Montserrat';
+}
+
+.registration-form textarea{
+    height: 110px;
+    width: 93%;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
+    color: #803d74;
+    font-family: 'Montserrat';
+}
+
+.registration-form button {
+    width: 15%;
+    float: right;
+    background: #ffffff;
+    color: #803d74;
+    font-family: 'Montserrat';
+    padding: 7px;
+    border: none;
+    border-radius: 100px;
+}
+
+.registration-form input::placeholder, 
+.registration-form textarea::placeholder {
+    color: #803d74;
+    font-family: 'Montserrat';
+}
+
+.home-sec-bg-1{
+    background: #b89cb3;
+    padding: 50px 0px;
+}
+
+.home-sec-bg-1 h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.home-sec-bg-1 h1.discount {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.home-sec-bg-1 h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 65px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.home-sec-bg-1 h3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex-col {
+    width: 40%;
+}
+
+.footer-flex-col p {
+    color: #ffffff;
+    line-height: 24px;
+    margin: 0;
+}
+
+.footer-social-icons svg {
+    background: #ffffff;
+    color: #803d74;
+    width: 22px;
+    height: 22px;
+    padding: 6px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.footer-logo-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer-logo-area h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 47px;
+    color: #ffffff;
+}
+
+.footer-flex.one .footer-flex-col:nth-child(1) p {
+    width: 60%;
+}
+
+
+.footer-flex.one .footer-flex-col:nth-child(2) p {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.footer-flex-col a {
+    color: #ffffff;
+}
+
+.footer-flex.two {
+    margin-top: 40px;
+    align-items: end;
+}
+
+.last .home-main-col-1 h1 {
+    text-align: end;
+    margin-top: 0;
+}
+
+.last h1.discount {
+    font-family: 'Montserrat';
+    font-size: 47px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin: 0px;
+    color: #803d7485;
+}
+
+.last .home-main-col-1 h2 {
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: serif;
+    color: #803d74;
+    margin: 0px;
+    text-align: end;
+}
+
+.last .home-main-col-1 h6 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.last .home-main-col-1 p {
+    text-align: end;
+}
+
+.last .home-main-col-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.home-main.last {
+    padding: 70px 0px 50px;
+    background-image: linear-gradient(to right, #803d7459, white);
+}
+
+.main-slider img.slick-arrow.slick-prev {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 46%;
+    width: auto;
+    height: auto;
+    rotate: 30deg;
+    z-index: 1;
+}
+
+.main-slider img.slick-arrow.slick-next {
+    position: absolute;
+    top: auto;
+    bottom: 1.7%;
+    right: 46%;
+    width: auto;
+    height: auto;
+    rotate: 90deg;
+}
+
+.main-slider .home-main-col-2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.container.main-slider {
+    padding-bottom: 50px;
+}
+
+.last .home-main-col-2 {
+    width: 60%;
+    text-align: center;
+}
+
+.home-main.last .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
